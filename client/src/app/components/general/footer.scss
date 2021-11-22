@@ -1,0 +1,66 @@
+@import '../../_sass/1-abstracts/colors';
+
+.footer {
+    &_info {
+        font-family: 'Comfortaa', cursive;
+        h2 {
+            color: $color-purple;
+        }
+    }
+
+    &_navigatie, &_optin {
+        font-family: 'Comfortaa', cursive;
+    }
+
+    &_field {
+        border-bottom: 2px solid $color-grey;
+        width: 90%;
+        display: flex;
+        padding: 1%;
+        margin-top: 5%;
+    }
+
+    &_menu {
+        list-style-type: none;
+        padding-left: 0;
+
+        li {
+            a {
+                color: $color-black;
+                margin: 0.2rem;
+            }
+            a:hover {
+                color: $color-purple;
+            }
+            
+        }
+    }
+
+    &_links {
+        margin: 0.1rem;
+        p {
+            font-weight: 200;
+        }
+
+        a {
+            color: $color-black;
+        }
+
+        a:hover {
+            color: $color-purple;
+            text-decoration: none;
+        }
+
+        svg {
+            color: $color-purple;
+            margin-left: 0.5rem;
+        }
+    }
+
+    &_made {
+        background-color: $color-purple;
+        text-align: center;
+        color: $color-white;
+        bottom: 0px;
+    }
+}

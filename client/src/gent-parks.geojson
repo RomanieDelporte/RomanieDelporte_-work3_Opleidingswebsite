@@ -1,0 +1,17 @@
+{
+"features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ArteveldeHogeschool Gent ",
+        "description": "Campus Mariakerke"
+      },
+      "geometry": {
+        "coordinates": [51.087124, 3.674829],
+        "type": "Point"
+      }
+    }
+    
+  ],
+  "type": "FeatureCollection"
+}

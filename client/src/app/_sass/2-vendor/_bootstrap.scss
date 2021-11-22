@@ -1,0 +1,23 @@
+@import '../../../../node_modules/bootstrap/scss/bootstrap';
+
+.hero__title {
+    font-size: 1.25rem;
+}
+
+@include media-breakpoint-up(sm) {
+    .hero__title {
+        font-size: 1.75rem;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .hero__title {
+        font-size: 2rem;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .hero__title {
+        font-size: 2.75rem;
+    }
+}

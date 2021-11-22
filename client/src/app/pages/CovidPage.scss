@@ -1,0 +1,48 @@
+@import '../_sass/1-abstracts/colors';
+
+.covid_guide {
+
+    &__info {
+        h3 {
+            color: $color-grey;
+        }
+    }
+    &__list ul {
+        list-style:inside;
+        color: $color-purple;
+    }
+
+    &__guidelines {
+        color: $color-black;
+    }
+
+    &__guidebox {
+        background-color: $color-purple; 
+        padding: 1% 2%;
+        color: $color-white;
+        border-radius: 20px;
+        p {
+            font-size: 13px;
+        }
+    }
+
+    &__form ul {
+        list-style: inside;
+        font-size: 12px;
+        a {
+            text-decoration: none;
+            color: $color-white;
+        }
+        a:hover {
+            color: $color-grey;
+        }
+    }
+
+    &__import {
+        ul {
+            list-style: inside;
+            color: $color-purple;
+        }
+    }
+
+}

@@ -1,0 +1,33 @@
+@import '../_sass/1-abstracts/colors';
+.review {
+
+    &__students {
+        margin-bottom: 2rem;
+        h2 {
+            background-color: $color-purple;
+            color: $color-white;
+            text-align: center;
+        }
+    }
+
+    &__column {
+        margin-bottom: 4rem;
+
+        p {
+            font-weight: 200;
+            margin: 2rem;
+        }
+    }
+
+    h2 {
+        background-color: $color-purple;
+        color:$color-white;
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+
+    &__text {
+        display: block;
+        align-self: center;
+    }
+}

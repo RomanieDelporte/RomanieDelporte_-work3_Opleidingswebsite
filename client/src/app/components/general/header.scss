@@ -1,0 +1,19 @@
+@import '../../_sass/1-abstracts/colors';
+
+header {
+
+    padding: 5px 0;
+    border-bottom: 3px solid $color-purple;
+   
+    .navbar-brand {
+        .nav-link {
+            font-family: 'Comfortaa', cursive !important;
+            color: $color-purple !important;
+        }
+    }
+}
+
+.greeting {
+    color: $color-purple !important;
+    font-weight: bold;
+}

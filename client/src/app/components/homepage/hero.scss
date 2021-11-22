@@ -1,0 +1,36 @@
+.hero {
+    margin-top: 30px;
+
+    &__left {
+        span {
+            font-size: 50px;
+        }
+    }
+
+    &__right {
+        background-color: #7E58C5;
+        height: 300px;
+        width: 100%;
+
+        span {
+            font-size: 50px;
+            color: #FFF;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .hero {
+        &__left {
+            span {
+                font-size: 20px;
+            }
+        }
+    
+        &__right {
+            span {
+                font-size: 20px;
+            }
+        }
+    }
+}
